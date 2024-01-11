@@ -1,15 +1,16 @@
 body {
     font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #333;
+    background-color: #28324a;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
+    padding: 20px 0;
 }
 
 header h1 {
@@ -17,14 +18,31 @@ header h1 {
 }
 
 section {
-    padding: 2em;
+    margin: 20px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
+section h2 {
+    color: #28324a;
 }
 
-/* Agrega estilos adicionales según tus preferencias */
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
