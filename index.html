@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="style.css">
     <style>
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f7f7f7; /* Gris claro */
-            color: #333; /* Gris oscuro para el texto principal */
+            background-color: #f8f8f8;
+            color: #333;
         }
 
         header {
             text-align: left;
             padding: 20px;
-            background-color: #1a466b; /* Azul oscuro */
+            background-color: #4a90e2;
             color: white;
+            margin-bottom: 20px;
         }
 
         #presentation {
@@ -26,53 +27,44 @@
             justify-content: space-between;
             align-items: center;
             padding: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
+            margin: 0 20px;
         }
 
         #presentation img {
             max-width: 100%;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         #contacto {
-            flex: 1;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
-        }
-
-        #contacto h3 {
-            color: #1a466b; /* Azul oscuro */
+            padding: 20px;
         }
 
         #contacto ul {
             list-style: none;
             padding: 0;
-            margin: 0;
         }
 
         #contacto li {
             margin-bottom: 10px;
         }
 
-        #contacto img {
-            margin-right: 10px;
-            vertical-align: middle;
-        }
-
         #buttons {
             position: fixed;
             top: 20px;
             right: 20px;
+            z-index: 1000;
         }
 
         #buttons button {
             margin-right: 10px;
             padding: 10px;
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
 
         section {
@@ -80,13 +72,7 @@
             margin: 20px;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            margin: 0;
-            padding: 20px;
-            color: #1a466b; /* Azul oscuro */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
@@ -98,18 +84,18 @@
 
     <div id="presentation">
         <div>
-            <h2>¡Hola! Soy Gabriel, un apasionado por los números y los datos. Bienvenido a mi portfolio.</h2>
+            <h2 style="font-size: 1.5em; margin-bottom: 20px;">¡Hola! Soy Gabriel, un apasionado por los números y los datos. Bienvenido a mi portfolio.</h2>
             <section id="contacto">
-                <h3>Contacto</h3>
+                <h3 style="font-size: 1.2em;">Contacto</h3>
                 <ul>
-                    <li> <img src="https://i.ibb.co/0Vhn2nk/telefono.png" alt="telefono" > (3576) 446597 </li>
-                    <li> <img src="https://i.ibb.co/dJ4DpRZ/correo.png" alt="correo-electronico"> <a href="mailto:gabi_broc@hotmail.com">gabi_broc@hotmail.com</a></li>
-                    <li> <img src="https://i.ibb.co/ZXXNj9K/linkedin.png" alt="logotipo-de-linkedin"> <a href="https://www.linkedin.com/in/gabrielbrochero/" target="_blank">LinkedIn</a></li>
-                    <li> <img  src="https://i.ibb.co/B3Z12jB/ubicacion.png" alt="marcador-de-posicion"> San Carlos 595, La Tordilla, Córdoba, Argentina. </li>
+                    <li> <img src="https://i.ibb.co/khf0XkV/telefono.png" alt="telefono" > (3576) 446597 </li>
+                    <li> <img src="https://i.ibb.co/5WSGwv5/correo-electronico.png" alt="correo-electronico" border="0"></a> <a href="mailto:gabi_broc@hotmail.com" style="color: #4a90e2;">gabi_broc@hotmail.com</a></li>
+                    <li> <img src="https://i.ibb.co/Nm4H05m/logotipo-de-linkedin.png" alt="logotipo-de-linkedin" border="0"></a> <a href="https://www.linkedin.com/in/gabrielbrochero/" target="_blank" style="color: #4a90e2;">LinkedIn</a></li>
+                    <li> <img  src="https://i.ibb.co/tcYFnf1/marcador-de-posicion.png" alt="marcador-de-posicion"> San Carlos 595, La Tordilla, Córdoba, Argentina. </li>
                 </ul>
             </section>
         </div>
-        <img src="https://i.ibb.co/7QprW7L/Mi-proyecto.jpg" alt="Foto Gabriel" border="0">
+        <img src="gabriel_foto.jpg" alt="Foto de Gabriel">
     </div>
 
     <div id="buttons">
